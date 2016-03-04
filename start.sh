@@ -24,5 +24,5 @@ sudo docker run -ti \
      -v `pwd`/uxbox-backend:/home/uxbox/uxbox-backend \
      -v $HOME/.m2:/home/uxbox/.m2 \
      -v $HOME/.gitconfig:/home/uxbox/.gitconfig \
-     -p 3449:3449 uxbox:$REV
+     -p 3449:3449 $IMGNAME:$REV
 
